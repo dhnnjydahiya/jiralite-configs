@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yourusername/jiralite-configs.git
+          # Optional for private repos
+          # username: your-git-username
+          # password: your-git-password-or-token
+          # searchPaths: configs  # if config files are inside a folder named configs in your repo

@@ -1,2 +1,9 @@
 spring:
-  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/jira_dev
+    username: dev_user
+    password: dev_pass
+
+logging:
+  level:
+    root: DEBUG

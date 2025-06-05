@@ -1,9 +1,6 @@
-# jira-lite.yml
 server:
   port: 8081
 
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/jiralite
-    username: root
-    password: pass123
+  application:
+    name: jira-lite
